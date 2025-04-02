@@ -1,0 +1,68 @@
+.table-td-hover {
+  min-height: 70vh;
+  table-layout: fixed;
+}
+.table-td-hover .jtc-th {
+  height: 40px;
+  text-align: center;
+}
+.table-td-hover .jtc-td {
+  min-height: 40vh;
+  border: solid 1px var(--vz-gray-300);
+  position: relative;
+}
+.table-td-hover .jtc-td:hover,
+.table-td-hover .jtc-td.active {
+ background: var(--vz-gray-200);
+}
+.table-td-hover .jtc-td .jtc-label {
+  background: var(--vz-gray-300);
+  display: inline-block;
+  min-width: 30px;
+  padding: 2px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: center;  
+}
+.table-td-hover .jtc-td.active .jtc-label {
+  background: var(--vz-primary);
+  color: #fff;
+}
+
+
+/* Bottom Navigation */
+footer {
+	position: fixed !important;;
+  padding: 0 !important;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--white);
+	z-index: 100;
+	box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+  height: auto !important;
+  text-align: center;
+}
+.page-content{
+  margin-bottom: 50px;
+}
+
+.main-nav-page {
+	display: flex;
+	justify-content: space-evenly;
+}
+.main-nav-item {
+	padding: 0.75rem 0.5rem;
+	cursor: pointer;
+  width: 100%;
+}
+.main-nav-item i{
+  display: block;
+  font-size: 24px;
+}
+.main-nav-item:hover,
+.main-nav-item.active {
+  /*background: #eaf1fe;*/
+	color: #3577f1;
+  font-weight: bold;
+}

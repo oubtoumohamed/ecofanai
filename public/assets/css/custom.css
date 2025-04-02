@@ -1,0 +1,37 @@
+
+/* Bottom Navigation */
+footer {
+	position: fixed !important;;
+  padding: 0 !important;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--white);
+	z-index: 100;
+	box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+  height: auto !important;
+  text-align: center;
+}
+.page-content{
+  margin-bottom: 50px;
+}
+
+.nav-page {
+	display: flex;
+	justify-content: space-evenly;
+	min-width: ;
+}
+.nav-item {
+	padding: 0.75rem 0.5rem;
+	cursor: pointer;
+  width: 100%;
+}
+.nav-item i{
+  display: block;
+  font-size: 24px;
+}
+.nav-item:hover,
+.nav-item.active {
+  background: #eaf1fe;
+	color: #3577f1;
+  font-weight: bold;
+}

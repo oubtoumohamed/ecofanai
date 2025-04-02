@@ -1,0 +1,32 @@
+@extends('layouts.app')
+
+@section('content')
+  {!! 
+    main_list([
+      'title'=>true,
+      'data'=>$results,
+      'module'=>'user',
+      'fields'=>[
+        'firstname'=>[
+          'type'=>'text',
+        ],
+        'lastename'=>[
+          'type'=>'text',
+        ],
+        'username'=>[
+          'type'=>'text',
+        ],
+        'email'=>[
+          'type'=>'text',
+        ],
+        'cin'=>[
+          'type'=>'text',
+        ],
+        'phone'=>[
+          'type'=>'text',
+        ],
+      ],
+    ]);
+
+  !!}
+@endsection
