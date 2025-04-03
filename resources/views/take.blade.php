@@ -9,21 +9,21 @@
     <div class="card-body">
         <ul class="nav nav-pills animation-nav nav-justified gap-2 mb-3" role="tablist">
             <li class="nav-item waves-effect waves-light">
-                <a class="nav-link fs-10 active" data-bs-toggle="tab" href="#animation-home" role="tab"><i class="ri-qr-scan-2-line fs-20 p-2 rounded-circle align-middle me-2"></i>Scan Qrcode</a>
+                <a class="nav-link fs-12 active" data-bs-toggle="tab" href="#animation-home" role="tab"><i class="ri-qr-scan-2-line fs-16 rounded-circle align-middle me-2"></i>Scan Qrcode</a>
             </li>
             <li class="nav-item waves-effect waves-light">
-                <a class="nav-link fs-10" data-bs-toggle="tab" href="#animation-profile" role="tab"><i class="ri-vidicon-2-line fs-20 p-2 bg-primary-subtle rounded-circle align-middle me-2"></i> Take a video</a>
+                <a class="nav-link fs-12" data-bs-toggle="tab" href="#animation-profile" role="tab"><i class="ri-vidicon-2-line fs-16 bg-primary-subtle rounded-circle align-middle me-2"></i> Take a video</a>
             </li>
         </ul>
         <div class="tab-content text-muted">
             <div class="tab-pane active" id="animation-home" role="tabpanel">
-                <p class="text-muted mb-3">Please fill scan bin qrcode</p>
+                <!--p class="text-muted mb-3">Please fill scan bin qrcode</p-->
                 
                 <input type="text" id="qrcodetext" name="qrcodetext" class="form-control mb-2" placeholder="Qrcode ...." />
                 <div id="qr-reader"></div>
             </div>
             <div class="tab-pane" id="animation-profile" role="tabpanel">
-                <p class="text-muted mb-3">Record a Video from Camera</p>
+                <!--p class="text-muted mb-3">Record a Video from Camera</p-->
                 
                 <div>
                     <video id="video" style="border: solid 1px #ccc; width: 100%;" class="mb-3" autoplay controls=""></video>
@@ -31,7 +31,7 @@
                     <button id="recordButton" type="button" class="btn btn-soft-secondary waves-effect waves-light material-shadow-none"> <i class="ri ri-play-circle-line fs-16"></i> Start Recording</button>
                     <button id="stopButton" disabled type="button" class="btn btn-soft-danger waves-effect waves-light material-shadow-none"> <i class="ri ri-stop-circle-line fs-16"></i>Stop</button>
                     
-                    <button id="uploadButton" disabled type="button" class="w-100 mt-5 btn btn-soft-success waves-effect waves-light material-shadow-none"><i class="ri-upload-2-fill fs-20"></i>  Upload your video now</button>
+                    <button id="uploadButton" disabled type="button" class="w-100 mt-4 btn btn-soft-success waves-effect waves-light material-shadow-none"><i class="ri-upload-2-fill fs-20"></i>  Upload your video now</button>
                 </div>
             </div>
             <div class="tab-pane" id="animation-messages" role="tabpanel">
