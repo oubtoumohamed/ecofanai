@@ -9,10 +9,10 @@
     <div class="card-body">
         <ul class="nav nav-pills animation-nav nav-justified gap-2 mb-3" role="tablist">
             <li class="nav-item waves-effect waves-light">
-                <a class="nav-link fs-12 active" data-bs-toggle="tab" href="#animation-home" role="tab"><i class="ri-qr-scan-2-line fs-20 p-2 rounded-circle align-middle me-2"></i>Scan Qrcode</a>
+                <a class="nav-link fs-10 active" data-bs-toggle="tab" href="#animation-home" role="tab"><i class="ri-qr-scan-2-line fs-20 p-2 rounded-circle align-middle me-2"></i>Scan Qrcode</a>
             </li>
             <li class="nav-item waves-effect waves-light">
-                <a class="nav-link fs-12" data-bs-toggle="tab" href="#animation-profile" role="tab"><i class="ri-vidicon-2-line fs-20 p-2 bg-primary-subtle rounded-circle align-middle me-2"></i> Take a video</a>
+                <a class="nav-link fs-10" data-bs-toggle="tab" href="#animation-profile" role="tab"><i class="ri-vidicon-2-line fs-20 p-2 bg-primary-subtle rounded-circle align-middle me-2"></i> Take a video</a>
             </li>
         </ul>
         <div class="tab-content text-muted">
